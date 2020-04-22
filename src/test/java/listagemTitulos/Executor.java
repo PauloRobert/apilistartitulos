@@ -10,7 +10,7 @@ import org.junit.runner.notification.Failure;
 public class Executor {
 
 	public static void main(String[] args) {
-		Result result = JUnitCore.runClasses(ListarTodasRegioesTest.class);
+		Result result = JUnitCore.runClasses(ListarTodasRegioesTest.class, ListarTodasRegioesXmlTest.class);
 		int QuantidadeFalhas = result.getFailureCount();
 
 		for (Failure failure : result.getFailures()) {
@@ -32,9 +32,6 @@ public class Executor {
 
 		}
 
-		JFrame parent = new JFrame();
-
-	    JOptionPane.showMessageDialog(parent, "Printing complete");
 	}
 
 }

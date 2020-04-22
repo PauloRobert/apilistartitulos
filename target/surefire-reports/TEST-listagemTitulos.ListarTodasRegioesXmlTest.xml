@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="listagemTitulos.ListarTodasRegioesTest" time="5.675" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="listagemTitulos.ListarTodasRegioesXmlTest" time="0.703" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,10 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="CT01_ListarAno" classname="listagemTitulos.ListarTodasRegioesTest" time="5.224"/>
-  <testcase name="CT02_ListarAcimaDe2Anos" classname="listagemTitulos.ListarTodasRegioesTest" time="0.06"/>
-  <testcase name="CT03_UrlInvalida" classname="listagemTitulos.ListarTodasRegioesTest" time="0.046"/>
-  <testcase name="CT04_ListarAnoRegiao" classname="listagemTitulos.ListarTodasRegioesTest" time="0.089"/>
-  <testcase name="CT05_RegiaoInvalida" classname="listagemTitulos.ListarTodasRegioesTest" time="0.053"/>
-  <testcase name="CT06_ListarAnoFuturo" classname="listagemTitulos.ListarTodasRegioesTest" time="0.066"/>
+  <testcase name="CT07_ListarAno" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.514"/>
+  <testcase name="CT08_ListarAcimaDe2Anos" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.084"/>
+  <testcase name="CT09_UrlInvalida" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.035"/>
+  <testcase name="CT10_ListarAnoRegiao" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.053"/>
+  <testcase name="CT11_RegiaoInvalida" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.009"/>
+  <testcase name="CT12_ListarAnoFuturo" classname="listagemTitulos.ListarTodasRegioesXmlTest" time="0.003"/>
 </testsuite>
